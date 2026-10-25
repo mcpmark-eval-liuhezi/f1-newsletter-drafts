@@ -1,56 +1,52 @@
 # Hamilton Race-Weekend Brief
 
+*F1 fan newsletter — Lewis Hamilton spotlight. Every figure below was pulled fresh from live data services at compile time.*
+
 ## Right Now — Live Track Check
 
-Nothing was on track at the moment this brief was compiled. The live checks returned the following:
+**No cars were on track when this brief was compiled.** The live checks returned exactly the following:
 
-- **Live session status:** the session-status endpoint returned an empty result — no active session.
-- **Live timing:** the live timing endpoint returned no data (HTTP 404 — no live timing feed available), i.e. no cars running.
-- **Live position feed:** returned only stale, historical records — every entry was timestamped **2023-02-24** (session key 7763, meeting key 1140) and contained driver-number/position pairs (for example, the most recent entries showed driver number 31 at position 1). These are old records, not a current running order.
+- **Live session status:** the live session-status endpoint returned an empty result — no active session.
+- **Live timing:** the live timing endpoint returned no data (HTTP 404 — no live timing feed available).
+- **Live positions:** the live position feed returned **only stale, historical records** — every entry was timestamped **2023-02-24** (session key 7763, meeting key 1140), containing driver-number/position pairs (for example, driver number 44, Hamilton's car, appeared in those 2023 lists). These are records from the 2023 pre-season test, not a current running order.
 
-Because no cars were on track, **there is no current leader to report**. Any driver listed in the position feed output is from February 24, 2023 data and must not be presented as a live leader.
+Because no cars were on track, **there is no current leader to report**. Any driver name in the position feed output is stale February 2023 data and must not be presented as a live leader.
 
 ## Hamilton Profile & 2024 Championship Standing
 
-Profile as returned by the F1 data service (driverId: `hamilton`):
+**Hamilton's profile basics, exactly as the F1 data service returns them (driverId: `hamilton`):**
 
 - **Permanent car number:** 44
 - **Driver code:** HAM
 - **Nationality:** British
 - **Date of birth:** 1985-01-07
 
-**2024 FIA Formula One Drivers' Championship (after round 24):** Lewis Hamilton finished **7th**, with **223 points** and **2 wins**, driving for **Mercedes**. (For context from the same standings pull: champion Max Verstappen finished 1st on 437 points; George Russell was 6th on 245.)
+**2024 FIA Formula One Drivers' Championship (after round 24):** Lewis Hamilton finished **7th**, with **223 points** and **2 wins**, driving for **Mercedes**. (For context from the same standings pull: champion Max Verstappen finished 1st on 437 points; George Russell was 6th on 245 points.)
 
 ## Best Lap — 2024 British Grand Prix, Silverstone
 
 This section covers the **2024 British Grand Prix** (round 12 of the 2024 season, race date 2024-07-07), held at **Silverstone Circuit, Silverstone, UK**.
 
 - **Hamilton's fastest race lap: 1:29.438**, set on **lap 45 of 52**, ranked the **5th-fastest lap of the race** overall, at an average speed of **237.120 kph** (per the official race result's FastestLap data).
-- From the lap-by-lap timing feed (which returned his laps 1–30), the quickest of those sampled laps was **1:31.095** on lap 22.
-- Context from the same data pull: Hamilton **won this race**, starting from grid slot 2, completing 52 laps in a total time of **1:22:27.059** — 1.465 seconds ahead of Max Verstappen.
+- Context from the same data pull: Hamilton **won this race**, starting from grid slot 2, completing all 52 laps in a total time of **1:22:27.059** — 1.465 seconds ahead of Max Verstappen.
 
 ## In the News
 
-**Latest Lewis Hamilton headlines** (found via Google web search, source names included):
+### Latest Lewis Hamilton headlines (via web search — source names included)
 
-- **RacingNews365** — "Lewis Hamilton prepared for major F1 revelation after testing" (Feb 23, 2026): Hamilton believes the truth about the field's form will only come out at the Australian GP season-opener.
-- **PlanetF1** — "Lewis Hamilton Ferrari reset: 'One hell of a season'" (Feb 22, 2026): Hamilton promised "we will never see last year's mindset again" as he declared himself "reset and refreshed" for F1 2026.
-- **Crash.net** — "Lewis Hamilton and Charles Leclerc's first words on new Ferrari" (Jan 27, 2026): Hamilton's first chance to drive the SF-26 at Ferrari's Fiorano test track.
-- **GPfans** — "F1 News Today: Lewis Hamilton gets huge Ferrari boost" (Feb 9, 2026): notes Hamilton joined Ferrari from Mercedes in 2025.
-- **The Sun (Motorsport)** — F1 returns to Africa for the first time in 33 years in a landmark 10-year deal, with Hamilton featuring prominently in the coverage.
+- **RacingNews365** (Aug 6, 2025): *"Lewis Hamilton comments 'horrible' after being hit with 'double whammy'"* — Hamilton was "brutally critical" of himself after qualifying for the Hungarian Grand Prix, describing it as "useless".
+- **GPfans** (Aug 6, 2026): *"Lewis Hamilton's Ferrari boss given rave review as F1 title..."* — Emerson Fittipaldi made the case for Hamilton picking up his eighth world title in 2026 as he reflected on the first half of the season.
+- **PlanetF1** (11 hours ago): *"Lewis Hamilton and Charles Leclerc reject 'nonsense' Ferrari claim"* — Isack Hadjar said Max Verstappen would have won by more in Singapore; Hamilton and Leclerc reject a Ferrari advantage claim.
+- **WIProud** (Jun 15, 2026): *"The factors which could take 'rebuilt' Lewis Hamilton to the F1 title..."* — Hamilton's first win with Ferrari on Sunday, his first since 2024, left him second in the standings and cut into the title fight.
 
-**Where the 2026 championship battle stands:**
+### Where the 2026 championship battle stands (via web search — source names included)
 
-- **Athlon Sports** (Aug 1, 2026, standings after the Hungarian GP): 1. Kimi Antonelli (Mercedes) 219; 2. Lewis Hamilton (Ferrari) 169; 3. George Russell (Mercedes) 160; 4. Charles Leclerc (Ferrari) 138.
-- **Las Motorsport**: Antonelli leads the 2026 drivers' championship with 219 points after 11 of 23 races — a 50-point lead over Lewis Hamilton (Ferrari, 169).
-- Later-season snapshots show the battle evolving: **Formula One History** (Oct 11, 2026) and **Liquipedia** list Antonelli on 340 points with Russell second on 238 and Hamilton third; **The Athletic (NYT)** (Oct 5, 2026) reported Antonelli on 292 and Russell on 211, with Hamilton close behind.
+- **GPfans** (Jun 14, 2026): *"F1 Standings 2026: Lewis Hamilton ignites title race after ..."* — top of the standings: **1. Kimi Antonelli (Mercedes AMG Petronas F1 Team)**; **2. Lewis Hamilton (Scuderia Ferrari)**; **3. George Russell (Mercedes)**.
+- **Speedsport-Magazine** (*"FIA Formula 1 World Championship 2026 – Standings"*): **1. Andrea Kimi Antonelli — 9 wins, 302 points**; **2. George Russell — 6 wins, 236 points**; **3. Lewis Hamilton — 1 win, 199 points** (after 20 races).
+- **Liquipedia / Formula 1 History** (per search results): Kimi Antonelli led with 340 points, with George Russell second on 238 and **Lewis Hamilton third**; **The Athletic (NYT)** (Oct 5, 2026) reported Antonelli on 292 and Russell on 211, with Hamilton close behind.
 
-**Bottom line for the newsletter:** sources consistently agree Kimi Antonelli (Mercedes) leads the 2026 drivers' championship, with Hamilton (Ferrari) his nearest challenger early in the season before Russell moved ahead later in the year. Exact points totals vary by round and publication date — date-stamp any figure before publication.
+**Bottom line for the newsletter:** every headline is from the F1 post-Hamilton-to-Ferrari era — sources consistently have Kimi Antonelli leading the 2026 drivers' championship, with Hamilton (Ferrari) his nearest challenger. Points totals shift by round and publication date, so date-stamp any figure before print.
 
-## Fact-Check Notes for Editors
+## Sources
 
-- Every figure in this brief was pulled fresh from live data services at compile time: the F1 data service (driver profile, 2024 standings, 2024 British Grand Prix results and lap data, circuit info, live feeds) and Google web search (headlines and 2026 standings coverage).
-- The live "leader" line is deliberately absent — nothing was on track when the live check was run, and the position feed only returned stale 2023 records.
-- The points figures in the news section are as published by each named source on its publication date; they are snapshots, not a single official standings table.
-
-**Sources:** F1 data service (live feeds; driver info; 2024 driver standings; 2024 British Grand Prix results, fastest laps and lap times; Silverstone circuit info); RacingNews365; PlanetF1; Crash.net; GPfans; The Sun; Athlon Sports; Las Motorsport; Formula One History; Liquipedia; The Athletic (The New York Times).
+F1 data service (live session status, live timing, live positions; Hamilton driver profile; 2024 driver standings; 2024 British Grand Prix results, fastest laps and lap times; Silverstone circuit info); Google web search: RacingNews365, GPfans, PlanetF1, WIProud (Hamilton headlines); GPfans, Speedsport-Magazine, Liquipedia, The Athletic (The New York Times) (2026 standings coverage).
