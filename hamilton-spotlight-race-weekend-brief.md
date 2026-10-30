@@ -25,7 +25,7 @@ The fastest lap recorded for Hamilton in the **2024 British Grand Prix** (round 
 - **RacingNews365** — "Crucial Red Bull advantage revealed in F1 title fight" (12 Nov 2024): Lewis Hamilton opposes Max Verstappen after vocal F1 criticism, with the Red Bull advantage discussed. (racingnews365.com)
 - **BBC** — "F1 has never had anyone like me - Hamilton" (11 hours ago): Hamilton's latest long-form piece on the pre-2026 championship conversation. (bbc.com)
 - **PlanetF1** — Hamilton retirement update and questions about whether he will be on the African Grand Prix grid. (planetf1.com)
-- **2026 championship battle:** RacingNews365 frames the title fight around the "crucial Red Bull advantage"; BBC readers also asked "Can Lewis win the championship in 2026?", signalling the 二○二 six title still stands as an open fight rather than a closed question.
+- **2026 championship battle:** RacingNews365 frames the title fight around the "crucial Red Bull advantage"; BBC readers also asked "Can Lewis win the championship in 2026?", signalling the 2026 title still stands as an open fight rather than a closed question.
 
 ---
 *All figures above pulled from the F1 data service (live check, driver profile, 2024 standings, 2024 British GP lap times) and web search results at time of writing.*
