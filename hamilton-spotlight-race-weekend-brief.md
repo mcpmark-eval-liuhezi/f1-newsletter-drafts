@@ -1,31 +1,26 @@
 # Hamilton Race-Weekend Brief
 
-## Right Now: Is Anything on Track?
+## Right Now: Live Track Check
 
-Checked the live F1 session and position feeds; both endpoints returned an access error (401) rather than live telemetry, so **no cars were confirmed on track at the time of checking, and there is no leader to name from the live feed**. Editors should not run with a "current race lead" claim until the live feed returns actual position data.
+The live session status check returned an empty result — no active session was live at the time of checking, so nothing was on track at this moment. The live position feed did return data, but it was stale: it reported positions from session key 7763 dated 2023-02-24 (meeting key 1140), not a current session. In that feed the leader was shown as position 1, driver number 1 (Max Verstappen). Hamilton (driver number 44) appeared at position 14 in one of the snapshots. Editorial note: treat the position feed as non-current until a fresh live session is available.
 
-## Hamilton's Profile Basics
-
-Exactly as returned by the data service:
+## Driver Profile
 
 - Permanent car number: 44
 - Driver code: HAM
 - Nationality: British
 - Date of birth: 1985-01-07
+- 2024 Drivers' Championship: finished 7th (positionText 7) with 223 points and 2 wins, driving for Mercedes.
 
-**2024 Drivers' Championship:** Hamilton finished **7th** with **223 points** and **2 wins**, driving for Mercedes (season fully rounded off at 24 rounds).
+## Best Lap: 2024 British Grand Prix at Silverstone
 
-## Best Lap — 2024 British Grand Prix, Silverstone Circuit
-
-The fastest lap recorded for Hamilton in the **2024 British Grand Prix** (round 12 of the 2024 season, run on 7 July 2024 at the **Silverstone Circuit**, Silverstone, UK) was **1:31.095 on lap 22**, with him running P3 on that lap.
+Race: 2024 British Grand Prix
+Circuit: Silverstone Circuit (Silverstone, UK)
+Date: 2024-07-07
+Best lap time: 1:31.095, set on lap 22 (running in position 3 at the time)
 
 ## In the News
 
-- **RacingNews365** — "Lewis Hamilton spies costly issue Ferrari must 'get on top of'": Hamilton has identified a persistent balance issue with his Ferrari that he believes is preventing stronger results. (racingnews365.com)
-- **RacingNews365** — "Crucial Red Bull advantage revealed in F1 title fight" (12 Nov 2024): Lewis Hamilton opposes Max Verstappen after vocal F1 criticism, with the Red Bull advantage discussed. (racingnews365.com)
-- **BBC** — "F1 has never had anyone like me - Hamilton" (11 hours ago): Hamilton's latest long-form piece on the pre-2026 championship conversation. (bbc.com)
-- **PlanetF1** — Hamilton retirement update and questions about whether he will be on the African Grand Prix grid. (planetf1.com)
-- **2026 championship battle:** RacingNews365 frames the title fight around the "crucial Red Bull advantage"; BBC readers also asked "Can Lewis win the championship in 2026?", signalling the 2026 title still stands as an open fight rather than a closed question.
-
----
-*All figures above pulled from the F1 data service (live check, driver profile, 2024 standings, 2024 British GP lap times) and web search results at time of writing.*
+- GP FANS (gpfans.com, 22 Jun 2026): Seven-time world champion Lewis Hamilton has praised his Ferrari F1 team for listening to his concerns and pushing on in 2026 — "Lewis Hamilton admits 'relentless' pursuit of change left..."
+- PlanetF1 (planetf1.com, 23 Aug 2025): Lewis Hamilton's engineers coming under scrutiny as George Russell's "crazy" Ferrari theory is rejected.
+- 2026 Championship battle: GP FANS latest points table lists Kimi Antonelli (Mercedes) 1st, Lewis Hamilton (Scuderia Ferrari HP) 2nd, and George Russell 3rd. Madring.com reports Antonelli 340 pts and Russell 238 pts; a BBC F1 standings snippet puts Antonelli leading with 267 points, 66 points ahead of Russell, with Hamilton third, 76 points off the leader.
