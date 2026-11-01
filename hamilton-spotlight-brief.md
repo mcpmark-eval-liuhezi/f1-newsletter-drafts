@@ -1,38 +1,30 @@
 # Hamilton Race-Weekend Brief
 
-## Right Now — Live Position Check
+## Right Now: Live Session Check
 
-The live session status check (`getCurrentSessionStatus`) returned an empty result — no active session was live at the time of the check.
+The live session status check returned an empty response (`{}`) — no F1 session is live at this moment. The live position feed did return data, but it is stale/cached, timestamped 2023-02-24T06:51:09.680000+00:00 (session_key 7763, meeting_key 1140). The top of the feed showed position 1 held by driver number 1 at 2023-02-24T06:51:09.680000+00:00, followed by position 2 driver number 2, position 3 driver number 4, position 4 driver number 10, position 5 driver number 11, position 6 driver number 14, position 7 driver number 16, position 8 driver number 20, position 9 driver number 21, position 10 driver number 22, position 11 driver number 24, position 12 driver number 27, position 13 driver number 31, position 14 driver number 44, position 15 driver number 55, position 16 driver number 63, position 17 driver number 81. So: nothing is live right now; the position feed's leader line as returned was position 1, car number 1 (timestamped 2023-02-24T06:51:09.680000+00:00).
 
-The live position feed (`getLivePositions`) did return data, but every entry is timestamped **2023-02-24T06:51:09+00:00** (session_key 7763, meeting_key 1140) — i.e. stale 2023 pre-season-testing data, not a current live session. In that returned feed the leader was exactly as the feed shows it: **position 1, driver number 14** (followed by position 2, driver number 1; position 3, driver number 4; position 4, driver number 10; position 5, driver number 11; position 6, driver number 14...). Bottom line: nothing was actually on track right now; the position feed's leader (car #14, position 1) comes from 2023 data.
-
-## Hamilton Profile Basics
+## Driver Profile — Lewis Hamilton
 
 - Permanent car number: 44
 - Driver code: HAM
 - Nationality: British
 - Date of birth: 1985-01-07
-- 2024 Drivers' Championship: finished **P7** with **223 points** and **2 wins**, driving for Mercedes
 
-## Best Lap — 2024 British Grand Prix at Silverstone
+## 2024 Drivers' Championship Standings
 
-- Race: 2024 British Grand Prix (Round 12 of the 2024 season, run on 7 July 2024)
-- Circuit: Silverstone Circuit, Silverstone, UK
-- Best lap (fastest lap of the race): **1:29.438 on lap 45**, average speed 237.120 kph — ranked 5th fastest of the race. (Per the lap-by-lap feed, his quickest individual timed lap was 1:31.095 on lap 22.)
+Hamilton finished P7 in the 2024 drivers' championship with 223 points from 2 wins, driving for Mercedes.
+
+## Best Lap — 2024 British Grand Prix, Silverstone
+
+Race: 2024 British Grand Prix (Round 12 of the 2024 FIA Formula One World Championship), held at Silverstone Circuit, Silverstone, UK on 2024-07-07.
+
+Hamilton won the race from P2 on the grid, completing 52 laps in a total time of 1:22:27.059. His fastest lap in the race was 1:29.438 on lap 45 (ranked 5th fastest of the race). From the lap-times feed for Hamilton at this event, the best of the recorded laps (laps 1–30) was 1:31.095 on lap 22.
 
 ## In the News
 
-**Latest Lewis Hamilton headlines** (web search):
-
-- **BBC News** — "Departing Hamilton says farewell to Mercedes staff. The seven-time Formula 1 world champion will drive for Ferrari next season." (16 Dec 2024)
-- **GPBlog** — Hamilton to leave Mercedes after twelve seasons to join Ferrari; his Ferrari debut year was anything but a success.
-- **GPFans** (3 Aug 2026) — Heading into the summer break, Hamilton is 50 points behind the 19-year-old who replaced him at the Silver Arrows.
-- **RacingNews365** (19 Jul 2026) — Hamilton qualified for the Belgian Grand Prix in sixth, his lowest result since Miami; he signals a Ferrari boost despite the qualifying blow.
-
-**Where the 2026 championship battle stands** (web search):
-
-- **Speed Sport Magazine** — 2026 standings: 1. Andrea Kimi Antonelli (9 wins, 302 pts, 20 races); 2. George Russell (6 wins, 236 pts); 3. Lewis Hamilton (1 win, 199 pts).
-- **BBC / Facebook snippet** — Kimi Antonelli leads the championship with 267 points, holding a 66-point advantage over George Russell; Lewis Hamilton sits third, 76 points off the lead.
-- **RacingNews365** (18 Oct 2025) — 2025 F1 championships standings after the United States Grand Prix Sprint: McLaren's Norris & Piastri on top; Mercedes' Russell second.
-- **crash.net** (14 Mar 2026) — Lewis Hamilton fourth on 18 points; reigning champion Lando Norris fifth on 15; Max Verstappen yet to crack double digits.
-- **ESPN** — 2026 Formula 1 results page with full season standings.
+- Sky Sports — "Lewis Hamilton reveals he's 'lost out' in recent F1 races": Hamilton says he's "lost out" to Charles Leclerc through the set-up of his Ferrari car in recent races; he was outqualified...
+- Fox Sports — Lewis Hamilton News, Rumors & Driver Updates: Brake failure at the Spanish Grand Prix at the Madring Circuit, finishing 22nd after the incident.
+- GP Fans — "Lewis Hamilton F1 THREAT declared in stunning Ferrari verdict": The seven-time champion's move from Mercedes to Ferrari for 2025.
+- PlanetF1 — Mexican GP: Lewis Hamilton on pole as FIA decision made on Alonso; full Lewis Hamilton radio with Ferrari investigation underway after loss of...
+- 2026 Championship — speedsport-magazine.com FIA Formula 1 World Championship 2026 standings (after 20 races): 1st Andrea Kimi Antonelli (9 wins, 302 pts), 2nd George Russell (6 wins, 236 pts), 3rd Lewis Hamilton (1 win, 199 pts). BBC (5 Dec 2025): Fernando Alonso led the standings, with Mark Webber trailing by eight points.
